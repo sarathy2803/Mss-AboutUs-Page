@@ -1,0 +1,105 @@
+.h--timeline-events{
+  padding-bottom: 0;
+}
+.timeline_dot_container .timeline_dot{
+  margin: 3px 0;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background-color: #565656;
+}
+.timeline_dot_container .timeline_line{
+  height: 75px;
+  width: 2px;
+  background-color: #878686;  
+}
+#timeline_year .splide__slide{
+  border: none;
+}
+#timeline_year .splide__slide.is-active{
+  border: none;
+}
+#timeline_year .splide__slide.is-active .timeline_year{
+  color: #7AB189;
+}
+#timeline_year .splide__slide.is-active .timeline_dot{
+  background-color: #7AB189;
+}
+#timeline_year .splide__arrow{
+  background-color: transparent!important;
+}
+#timeline_year .splide__arrows .splide__arrow--prev{
+  top: 17px;
+  transform: translate(24px, -25px);
+}
+#timeline_year .splide__arrows .splide__arrow--prev svg{
+  transform: rotate(270deg);
+}
+#timeline_year .splide__arrows .splide__arrow--next{
+  bottom: 0;
+  top: auto;
+  transform: translate(-8px, 0px);
+}
+.edu_timeline .h--timeline-container{
+  margin-left: 0!important;
+}
+.edu_timeline .h--timeline-dates{
+  margin: 0 10px;
+}
+.edu_timeline .h--timeline-navigation--next{
+display: none;
+}
+.edu_timeline .h--timeline-navigation--next{
+display: none;
+}
+.h--timeline-event-title{
+margin-top: 20px;
+}
+.h--timeline-container{
+margin: 0;
+}
+.h--timeline-event-title{
+font-size: 26px;
+line-height: 28px;
+}
+.h--timeline-event-content h5{
+font-size: 15px!important;
+}
+#timeline_year .splide__arrows .splide__arrow--next svg{
+  transform: rotate(90deg);
+}
+.timeline_container{
+    display: flex;
+  }
+  #timeline_year{
+    height: 450px;
+    
+  }
+  .timeline_year_container{
+    display: flex;
+    align-items: start;
+  }
+  .timeline_year_container .timeline_year{
+    color: #000;
+    font-family:'Noto Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;  
+  }
+  #timeline_year-track{
+    height: 400px;
+    margin: 20px 0;
+    bottom: 2px;
+    top: 0;
+  }
+  #timeline_year-list{
+    flex-direction: column;
+  }
+  .timeline_year_container .timeline_dot_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
